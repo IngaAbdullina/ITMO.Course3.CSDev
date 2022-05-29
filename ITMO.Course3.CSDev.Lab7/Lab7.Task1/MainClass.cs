@@ -51,48 +51,5 @@ namespace Lab7
                 Console.WriteLine("Insufficient funds.");
             }
         }
-
     }
-    
-    // public enum AccountType { Checking, Deposit }
-    // public class BankAccount
-    // {
-    //     private long accNo;
-    //     private decimal accBal;
-    //     private AccountType accType;
-    //     private static long nextAccNo = 123;
-    //     
-    //     public void Populate(decimal balance)
-    //     {
-    //         accNo = NextNumber();
-    //         accBal = balance;
-    //         accType = AccountType.Checking;
-    //     }
-    //     
-    //     public long Number()
-    //     {
-    //         return accNo;
-    //     }
-    //     
-    //     public decimal Balance()
-    //     {
-    //         return accBal;
-    //     }
-    //     
-    //     public String Type()
-    //     {
-    //         return accType.ToString();
-    //     }
-    //
-    //     private static long NextNumber()
-    //     {
-    //         return nextAccNo++;
-    //     }
-    //     
-    //     public void TransferFrom(BankAccount accFrom, decimal amount)
-    //     {
-    //         if (accFrom.Withdraw(amount))
-    //             this.Deposit(amount);
-    //     }
-    // }
 }
