@@ -22,12 +22,9 @@ namespace Lab4
             
             try
             {
-                checked
-                {
-                    return n * Factorial(n - 1);
-                }
+                return n * Factorial(n - 1);
             }
-            catch (Exception caught) 
+            catch (StackOverflowException caught) 
             {
                 Console.WriteLine(caught);
                 return -1;
